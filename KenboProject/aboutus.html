@@ -1,165 +1,128 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal -->
-<html lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <title>Kenbo Services Limited</title>
-      <link rel="stylesheet" href="sty.css">
-      <link rel="icon" href="image/logo1.jpg" type="image/icon type">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-   </head>
-   <body>
-      <nav>
-         <div class="menu-icon">
-            <span class="fas fa-bars"></span>
-         </div>
-         <div class="logo">
-            <img src="image/logo1.jpg" alt="" class="logo">
-         </div>
-         <div class="nav-items">
-            <li><a href="index.html"><strong>HOME</strong> </a></li>
-            <li><a href="aboutus.html"><strong>ABOUT US</strong> </a></li>
-            <li><a href="services.html"><strong>SERVICES</strong> </a></li>
-            <li><a href="gallery.html"><strong>GALLERY</strong> </a></li>
-            <li><a href="contactus.html"><strong>CONTACT US</strong> </a></li>
-         </div>
-         <div class="search-icon">
-            <span class="fas fa-search"></span>
-         </div>
-         <div class="cancel-icon">
-            <span class="fas fa-times"></span>
-         </div>
-         <form action="#">
-            <input type="search" class="search-data" placeholder="Search" required>
-            <button type="submit" class="fas fa-search"></button>
-         </form>
-      </nav>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Kenbo Services Limited, an engineering and construction services company based in Kampala, Uganda.">
+    <title>About Kenbo Services Limited</title>
+    <link rel="icon" href="image/logo1.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="sty.css">
+  </head>
+  <body>
+    <nav class="site-nav">
+      <a class="brand" href="index.html" aria-label="Kenbo Services Limited home">
+        <img src="image/logo1.jpg" alt="Kenbo Services Limited logo">
+        <span><strong>Kenbo Services</strong> Limited</span>
+      </a>
+      <ul class="nav-items" data-nav-items>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="aboutus.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+      <div class="nav-actions">
+        <form class="search-form" data-search-form role="search">
+          <input type="search" placeholder="Search site" aria-label="Search site">
+          <button type="submit" aria-label="Search"><i class="fas fa-search"></i></button>
+        </form>
+        <button class="icon-button" data-search-button aria-label="Open search"><i class="fas fa-search"></i></button>
+        <button class="icon-button" data-menu-button aria-label="Open menu"><i class="fas fa-bars"></i></button>
+        <button class="icon-button" data-close-button aria-label="Close menu"><i class="fas fa-times"></i></button>
+      </div>
+    </nav>
 
-      <section class="aboutUs">
-         <div class="text-box">
-            <h1>About Us</h1>
-            <div class="banner-btn">
-               <a href="services.html"> <span></span> View our Services</a>
-               <a href="contactus.html"> <span></span> Contact Us</a>
-           </div>
+    <main>
+      <section class="hero compact">
+        <div class="hero-bg"><img src="image/civil1.jpg" alt="Civil engineering works"></div>
+        <div class="hero-content">
+          <p class="eyebrow">About the company</p>
+          <h1>Engineering work built on trust.</h1>
+          <p class="lead">Since 2009, Kenbo Services Limited has supported clients with practical construction, technical works, consultancy and project supply services.</p>
         </div>
       </section>
 
-      <div class="whatsapp">
-         <a href="https://wa.me/256778106743?text=Congratulations You're a Genius" title="Whatsapp us now" style="position: fixed; bottom: 10px; right: 10px; border-radius: 10px;"><button class="btn btn-success" style="width: 60px; height: 60px;border: none; background: transparent;">
-        <img src="image/whatsapp.png" class="whatapp-icon" style="height: 50px; width: 50px; align-content: center; cursor: pointer;" ></i>
-        </button></a>
+      <section class="section">
+        <div class="split">
+          <div class="copy">
+            <h2>Who We Are</h2>
+            <p>Kenbo Services Limited is a Kampala-based engineering company serving clients across civil engineering, road construction, plumbing and water works, electrical works, environmental management, mechanical works, bridge works, shallow well drilling and general supplies.</p>
+            <p>The company works with engineers, technicians and support teams who understand that every project needs a balance of good planning, dependable workmanship and clear communication.</p>
+            <p>Whether the work is a building, road, bridge, water system or supply assignment, our aim is to help clients move from idea to finished result with confidence.</p>
+          </div>
+          <img src="project/bang9.jpeg" alt="Construction project completed by Kenbo Services Limited">
+        </div>
+      </section>
+
+      <section class="section soft">
+        <div class="section-header">
+          <h2>How We Work</h2>
+          <p>Kenbo combines site experience with a client-first approach to make projects easier to plan, manage and complete.</p>
+        </div>
+        <div class="value-grid">
+          <article class="value-card">
+            <h3>Understand the Need</h3>
+            <p>We begin by clarifying the site condition, client goal, expected quality and available budget.</p>
+          </article>
+          <article class="value-card">
+            <h3>Plan the Work</h3>
+            <p>We help define the scope, materials, team requirements and practical delivery approach.</p>
+          </article>
+          <article class="value-card">
+            <h3>Deliver Responsibly</h3>
+            <p>We focus on safe execution, clean communication and durable outcomes clients can rely on.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="split">
+          <img src="project/road4.jpg" alt="Road construction machinery on site">
+          <div class="copy">
+            <h2>Our Promise</h2>
+            <p>Kenbo Services Limited is built for clients who need engineering support that is practical, responsive and accountable. We keep the work grounded in real site requirements and aim for results that hold up after handover.</p>
+            <ul class="check-list">
+              <li>Professional handling of construction and technical assignments</li>
+              <li>Respect for safety, time and project requirements</li>
+              <li>Sustainable practices where the project context allows</li>
+              <li>Reliable communication before, during and after the work</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="whatsapp">
+      <a href="https://wa.me/256778106743?text=Hello%20Kenbo%20Services%20Limited%2C%20I%20would%20like%20to%20inquire%20about%20your%20services." title="Chat with Kenbo Services Limited on WhatsApp">
+        <img src="image/whatsapp.png" alt="WhatsApp">
+      </a>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <h3>Kenbo Services Limited</h3>
+          <p>Engineering, construction, consultancy and general supplies for clients in Kampala and beyond.</p>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:kenboservices@gmail.com">kenboservices@gmail.com</a></p>
+          <p>Phone: <a href="tel:+256787352682">+256 787 352 682</a></p>
+          <p>Phone: <a href="tel:+256755834901">+256 755 834 901</a></p>
+          <p>Phone: <a href="tel:+211922320558">+211 922 320 558</a></p>
+        </div>
+        <div>
+          <h3>Office</h3>
+          <p>National Theatre, along Parliament Avenue</p>
+          <p>Kampala, Uganda</p>
+          <p>Mon-Fri: 8:00 AM - 5:00 PM</p>
+          <p>Sat: 10:00 AM - 5:00 PM</p>
+        </div>
       </div>
-      
-      <section class="chooseus">
-         <div class="choose-title">
-            <h3>Kenbo Srevices Limited</h3>
-            <hr>
-         </div>
-         
-         <div class="choose-cnt">
-            <p>Welcome to Kenbo Services Limited! We are a leading engineering company specializing in a wide range of civil engineering works, road construction, plumbing, electrical works, environmental management, mechanical works, shallow well drilling, bridge works, and general supplies. Since our establishment in 2009, we have been dedicated to providing high-quality services to our clients in Kampala and beyond.</p>
+      <p class="copyright">&copy; 2026 Kenbo Services Limited. All rights reserved.</p>
+    </footer>
 
-            <p>At Kenbo Services Limited, we pride ourselves on our commitment to excellence, professionalism, and innovation. We have assembled a team of skilled and experienced engineers, technicians, and support staff who are passionate about delivering exceptional results. With their expertise and our state-of-the-art equipment, we consistently strive to exceed our clients' expectations.</p>
-               
-            <p>Our civil engineering division specializes in designing and constructing structures that withstand the test of time. From residential and commercial buildings to infrastructure projects, we employ industry best practices to ensure the highest standards of quality and safety.</p>
-               
-            <p>Road construction is another area where we excel. We have successfully completed numerous road projects, ranging from small repairs to major highway constructions. Our team is well-versed in the latest road construction techniques and materials, ensuring durability and reliability.</p>
-               
-            <p>In the realm of plumbing and electrical works, we offer comprehensive services for both residential and commercial properties. Whether it's installing efficient plumbing systems or designing electrical networks, our skilled technicians pay attention to every detail to deliver top-notch solutions.</p>
-               
-            <p>Environmental management is a core aspect of our business. We understand the importance of sustainable practices and work closely with our clients to develop strategies that minimize environmental impact. From waste management to pollution control, we implement effective solutions that align with regulatory standards.</p>
-               
-            <p>Mechanical works and shallow well drilling are additional areas of expertise at Kenbo Services Limited. We have the capacity to handle complex mechanical installations and repairs, and our well-drilling services provide access to clean water sources for communities and projects in need.</p>
-               
-            <p>Furthermore, our bridge works division specializes in designing and constructing bridges that enhance transportation infrastructure. We ensure structural integrity and consider factors such as traffic flow, environmental impact, and aesthetic appeal in our designs.</p>
-               
-            <p>In addition to our engineering services, we also provide general supplies to support various construction projects. Our extensive network of suppliers enables us to source high-quality materials and equipment at competitive prices, ensuring timely delivery and customer satisfaction.</p>
-               
-            <p>At Kenbo Services Limited, we value our clients and prioritize building strong, long-lasting relationships. We approach each project with dedication, professionalism, and a focus on delivering exceptional value. Our aim is to contribute to the growth and development of communities through our engineering expertise and commitment to excellence.</p>
-               
-            <p>Thank you for considering Kenbo Services Limited for your engineering needs. We look forward to working with you to bring your projects to life.</p>
-            
-         </div>
-        </section>
-
-   
-        <section class="footer">
-         <div class="foot-div">
-            <div class="foot">
-               <div class="foot-title">
-                  <h3>SERVICE HOURS</h3>
-               </div>
-               <hr>
-               <div class="foot-cont">
-                  <p>Monday 8:00 AM - 5:00 PM</p>
-                  <p>Tuesday 8:00 AM - 5:00 PM</p>
-                  <p>Wednesday 8:00 AM - 5:00 PM</p>
-                  <p>Thursday 8:00 AM - 5:00 PM</p>
-                  <p>Friday 8:00 AM - 5:00 PM</p>
-                  <p>Saturday 10:00 AM - 5:00 PM</p>
-                  <p>Sunday closed </p>
-               </div>
-            </div>
-            <div class="foot">
-               <div class="foot-title">
-                  <h3>CONTACT US</h3>
-               </div>
-               <hr>
-               <div class="foot-cont">
-                  <p>Email: kenboservices@gmail.com</p>
-                  <p>Phone: +256 787 352 682</p>
-                  <p>Phone: +256 755 834 901</p>
-                  <p>Phone: +211 922 320 558</p>
-                  <P>LOCATED AT:</P>
-                  <P>National Theater along Parliament Avenue</P>
-                  <p>Kampala Uganda</p>
-               </div>
-            </div>
-            <div class="foot">
-               <div class="foot-title">
-                  <h3>ON SOCIAL MEDIA</h3>
-               </div>
-               <hr>
-               <div class="foot-cont">
-                  <p>Facebook</p>
-                  <p>Intstagram</p>
-                  <p>Twitter</p>
-               </div>
-            </div>
-         </div>
-        </section>
-        <section class="foote">
-          <p>&copy; 2023 Kenbo Services Limited. All rights reserved.</p>
-       </section>
-      <script>
-         const menuBtn = document.querySelector(".menu-icon span");
-         const searchBtn = document.querySelector(".search-icon");
-         const cancelBtn = document.querySelector(".cancel-icon");
-         const items = document.querySelector(".nav-items");
-         const form = document.querySelector("form");
-         const bannerbtn = document.querySelector("#banner .banner-btn a");
-         menuBtn.onclick = ()=>{
-           items.classList.add("active");
-           menuBtn.classList.add("hide");
-           searchBtn.classList.add("hide");
-           cancelBtn.classList.add("show");
-           bannerbtn.classList.add("hide");
-         }
-         cancelBtn.onclick = ()=>{
-           items.classList.remove("active");
-           menuBtn.classList.remove("hide");
-           searchBtn.classList.remove("hide");
-           cancelBtn.classList.remove("show");
-           form.classList.remove("active");
-           cancelBtn.style.color = "#ff3d00";
-         }
-         searchBtn.onclick = ()=>{
-           form.classList.add("active");
-           searchBtn.classList.add("hide");
-           cancelBtn.classList.add("show");
-         }
-      </script>
-     </section>
-   </body>
+    <script src="main.js"></script>
+  </body>
+</html>
